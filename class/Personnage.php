@@ -95,3 +95,8 @@ class Personnage
    {
    }
 }
+
+$personnage = new Personnage("Robeto", 2, 100);
+echo ($personnage->getNom());
+echo ($personnage->getForce());
+echo ($personnage->getSanté());
