@@ -86,17 +86,20 @@ class Personnage
 
 
 
-   public function seDeplacer()
+   public function seDeplacer(Personnage $personnage)
    {
+      echo "je suis $personnage->getNom() et je me deplace ";
    }
 
 
-   public  function parler()
+   public  function parler(Personnage $personnage)
    {
+      echo "je suis $personnage->getNom() et je parle";
    }
 }
-
+/*
 $personnage = new Personnage("Robeto", 2, 100);
 echo ($personnage->getNom());
 echo ($personnage->getForce());
 echo ($personnage->getSanté());
+*/
