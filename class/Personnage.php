@@ -6,6 +6,17 @@ class Personnage
    private $force;
    private $santé;
 
+   //-----------------------------------//
+   ////////////CONSTRUCTEUR//////////////
+   //---------------------------------//
+
+   public function __construct($nom, $force, $santé)
+   {
+      $this->setNom($nom);
+      $this->setForce($force);
+      $this->setSanté($santé);
+   }
+
    //------------------------------//
    ////////////GETTERS//////////////
    //----------------------------//
