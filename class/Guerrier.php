@@ -23,7 +23,7 @@ class Guerrier extends Personnage
     */
    public function getMuscle()
    {
-      $this->muscle;
+      return $this->muscle;
    }
 
 
